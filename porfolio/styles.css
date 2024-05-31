@@ -1,0 +1,111 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1em;
+    color: #777;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    margin-bottom: 10px;
+}
+
+.job, .project {
+    margin-bottom: 15px;
+}
+
+.job h3, .project h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.job p em, .project p em {
+    font-style: normal;
+    color: #777;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Skills Section */
+#skills p {
+    margin-bottom: 5px;
+}
+
+#skills p strong {
+    display: inline-block;
+    width: 200px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section h2 {
+        font-size: 1.3em;
+    }
+
+    section p, section ul {
+        font-size: 0.9em;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+}
