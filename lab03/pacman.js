@@ -1,3 +1,4 @@
+
 /*  James Billinger
     300187686
     June 7th, 2024
@@ -119,5 +120,7 @@ gameState = moveRight(gameState);
 gameState = moveRight(gameState); 
 gameState = moveRight(gameState); 
 gameState = moveRight(gameState); 
+
+
 
 
